@@ -18,7 +18,8 @@ before_script:
   - echo "no tests"
 
 script:
-  - docker --version # print the version for logging
+  # Print the version for logging
+  - docker --version 
   # Build and tag feed-api
   - docker build -t udagram-api-feed ./udagram-api-feed
   - docker tag udagram-api-feed nganpv/udagram-api-feed:v1
