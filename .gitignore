@@ -1,0 +1,10 @@
+node_modules/
+set_env.sh
+.vscode
+www/
+.ionic/
+.sourcemaps/
+.sass-cache/
+.tmp/
+.DS_Store
+docker.env
