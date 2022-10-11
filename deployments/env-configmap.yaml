@@ -4,11 +4,10 @@ data:
   AWS_BUCKET: nganpv-bucket-492022
   AWS_PROFILE: default
   AWS_REGION: us-east-1
-  JWT_SECRET: YMkcX9oyGyTxPvYs7oIihU0U0VmGPjRTks1/xvl+
+  JWT_SECRET: YMkcX9oyGyTxPvYs7oIihU0U0VmGPjRTks1...
   POSTGRES_DB: postgres
   POSTGRES_HOST: database-1.cbvhagimhbwu.us-east-1.rds.amazonaws.com
-  URL: http://localhost:8100
+  URL: http://a35ae85b4b57547a18c1f57448841d8f-845291227.us-east-1.elb.amazonaws.com:8100
 metadata:
   name: env-config
 # # you will replace URL with the URL of the frontend once you deploy it to AWS.
-
